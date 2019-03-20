@@ -1,0 +1,35 @@
+create table recibo
+id_recibo
+sequencia varchar(100)
+valor varchar(200)
+data varchar(50)
+assinatura varchar(50)
+referente varchar (50)
+id_cidade
+id_usuario
+id_cliente
+
+create table endereco
+id_endereco
+rua varchar (70)
+numero (10)
+complemento (100)
+cep (10)
+id_cidade
+
+create table cidade 
+id_cidade
+nome varchar(50)
+sigla varchar(2)
+
+create table cliente
+id_cliente varchar (100)
+cpf varchar (11)
+id_endereco
+
+create table usuario
+nome varchar(100)
+login varchar (100)
+senha (varchar(50)
+id_endereco
+
